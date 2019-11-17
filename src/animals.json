@@ -1,0 +1,96 @@
+[
+    {
+      "id": 1,
+      "name": "Bison",
+      "image":"1.jpg",
+      "clicked": false
+      
+    },
+    {
+      "id": 2,
+      "name": "whitetail",
+      "image": "2.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "name": "elk",
+      "image": "3.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "name": "Rabies Racoon",
+      "image": "4.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "name": "Rabies Racoon",
+      "image": "5.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "name": "King",
+      "image":"6.jpg",
+      "clicked": false
+      
+    },
+    {
+      "id": 7,
+      "name": "chipmunk",
+      "image": "7.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "name": "mule",
+      "image": "8.png",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "name": "prairiedog",
+      "image": "9.jpg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "name": "meadowlark",
+      "image": "10.jpg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "name": "whitetaildoe",
+      "image":"11.jpg",
+      "clicked": false
+      
+    },
+    {
+      "id": 12,
+      "name": "grouse",
+      "image": "12.jpg",
+      "clicked": false
+    },
+    {
+      "id": 13,
+      "name": "woodpeckers",
+      "image": "13.jpg",
+      "clicked": false
+    },
+    {
+      "id": 14,
+      "name": "baldeagle",
+      "image": "14.jpg",
+      "clicked": false
+    },
+    {
+      "id": 15,
+      "name": "elkcalf",
+      "image": "15.jpg",
+      "clicked": false
+    }
+    
+  ]
