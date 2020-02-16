@@ -2,7 +2,7 @@
 A memory game featuring colorado wild life
 
 ## Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+to practice with react.js
 
 ## Build Status
 Complete :checkered-flag:
@@ -22,9 +22,6 @@ React.js
 * :trident: Fork it
 * :sheep: Clone it
 * Install the NPMs
-
-## API Reference
-
 
 
 
