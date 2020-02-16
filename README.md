@@ -1,4 +1,4 @@
-# Colorado Clicky Game :deer: :fox_face:	:eagle:	
+# Colorado Clicky Game :deer: :chipmunk:	:eagle:	
 A memory game featuring colorado wild life
 
 ## Motivation
