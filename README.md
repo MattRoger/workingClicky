@@ -14,6 +14,7 @@ Each round the user has to click on a tile without clicking on a previously clic
 If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex
 
 ## Tech/framework used
+React.js
 
 ## Features
 
