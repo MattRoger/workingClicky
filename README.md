@@ -11,8 +11,35 @@ Complete :checkered-flag:
 Each round the user has to click on a tile without clicking on a previously clicked tile
 
 ## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex
 
+### How the Game Works
+#### App.js
+
+````javascript
+<PageWrapper>
+          <header>
+            <div className="container">
+              <h1>Colorado Wildlife Clicky Game</h1>
+              <p className="rules">Click all the animals without clicking the same animal twice!</p>
+            </div>
+            <h2 className="score"> Score: {this.state.score}</h2>
+            <h2 className="score"> Best Attempt: {this.state.topScore}</h2>
+          </header>
+          <div className="gameWrapper">
+            <Wrapper>
+              {this.state.animals.map(animal => (
+                <Game
+                  key={animal.id}
+                  id={animal.id}
+                  name={animal.name}
+                  image={animal.image}
+                  updateAnimal={this.updateAnimal}
+                />
+              ))}
+            </Wrapper>
+          </div>
+        </PageWrapper>
+````
 ## Tech/framework used
 React.js
 
