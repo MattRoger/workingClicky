@@ -13,6 +13,25 @@ Each round the user has to click on a tile without clicking on a previously clic
 ## Code style
 
 ### How the Game Works
+#### Animals.json sample
+```javascript
+[
+    {
+      "id": 1,
+      "name": "Bison",
+      "image":"1.jpg",
+      "clicked": false
+      //When an image is clicked,"clicked":true
+      
+    },
+    {
+      "id": 2,
+      "name": "whitetail",
+      "image": "2.jpg",
+      "clicked": false
+    }
+    ]
+````
 #### App.js
 
 ````javascript
