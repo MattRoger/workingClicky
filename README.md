@@ -7,7 +7,7 @@ A memory game featuring colorado wild life
 to practice with react.js
 
 ## Build Status
-Complete :checkered-flag:
+Complete :checkered_flag:
 
 ## How to use?
 Each round the user has to click on a tile without clicking on a previously clicked tile
@@ -150,6 +150,8 @@ function Game(props) {
 React.js Styled Components
 
 ## Features
+
+
 
 ## Installation
 * Install react
