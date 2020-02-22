@@ -1,5 +1,6 @@
 # Colorado Clicky Game :deer: :chipmunk:	:eagle:	
 A memory game featuring colorado wild life
+[Play The Game!](https://dashboard.heroku.com/apps/clickygame9999)
 
 ## Motivation
 to practice with react.js
@@ -75,6 +76,7 @@ function Game(props) {
     return (
         <div className="card">
           <div className="img-container d-flex" 
+          //Changes a tiles clicked attr to true
           onClick={() => props.updateAnimal(props.id)}>
             <img alt={props.name} 
            src={`${process.env.PUBLIC_URL}/images/${props.image}`}
