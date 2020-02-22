@@ -26,9 +26,12 @@ Each round the user has to click on a tile without clicking on a previously clic
             <h2 className="score"> Best Attempt: {this.state.topScore}</h2>
           </header>
           <div className="gameWrapper">
-            <Wrapper>//Wrapper component
+             //Wrapper component
+            <Wrapper>
               {this.state.animals.map(animal => (
-                <Game //Game component
+                //Game component
+                <Game
+                  //Rendered from animals.json
                   key={animal.id}
                   id={animal.id}
                   name={animal.name}
