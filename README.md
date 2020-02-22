@@ -43,6 +43,29 @@ Each round the user has to click on a tile without clicking on a previously clic
           </div>
         </PageWrapper>
 ````
+#### Wrapper Component
+```javascript
+function Wrapper(props) {
+  return <div className="wrapper">{props.children}</div>;
+}
+````
+#### Game Component
+
+```javascript
+function Game(props) {
+    return (
+        <div className="card">
+          <div className="img-container d-flex" 
+          onClick={() => props.updateAnimal(props.id)}>
+            <img alt={props.name} 
+           src={`${process.env.PUBLIC_URL}/images/${props.image}`}
+             />
+          </div>
+        </div>    
+      );
+}
+````
+
 ## Tech/framework used
 React.js
 
