@@ -1,4 +1,4 @@
-# Colorado Clicky Game :deer: :chipmunk:	:eagle:	
+# Colorado Wildlife Clicky Game :deer: :chipmunk:	:eagle:	
 A memory game featuring colorado wild life
 
 [Play The Game!](https://clickygame9999.herokuapp.com/)
@@ -147,11 +147,12 @@ function Game(props) {
 ````
 
 ## Tech/framework used
-React.js
+React.js Styled Components
 
 ## Features
 
 ## Installation
+* Install react
 * :trident: Fork it
 * :sheep: Clone it
 * Install the NPMs
