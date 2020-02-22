@@ -1,5 +1,6 @@
 # Colorado Clicky Game :deer: :chipmunk:	:eagle:	
 A memory game featuring colorado wild life
+
 [Play The Game!](https://dashboard.heroku.com/apps/clickygame9999)
 
 ## Motivation
