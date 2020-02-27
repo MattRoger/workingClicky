@@ -1,5 +1,5 @@
 # Colorado Wildlife Clicky Game :deer: :chipmunk:	:eagle:	
-A memory game featuring colorado wild life
+A memory game featuring colorado wild life.
 
 [Play The Game!](https://clickygame9999.herokuapp.com/)
 
@@ -10,7 +10,14 @@ to practice with react.js
 Complete :checkered_flag:
 
 ## How to use?
-Each round the user has to click on a tile without clicking on a previously clicked tile
+Each round the user has to click on a tile without clicking on a previously clicked tile.
+
+## Tech/framework used
+* React.js 
+* Styled Components
+
+## Features
+Artwork by Matt Roger
 
 ## Code style
 
@@ -18,6 +25,8 @@ Each round the user has to click on a tile without clicking on a previously clic
 ![clicky demo](https://github.com/MattRoger/screenshots/blob/master/clicky/demo.gif?raw=true)
 
 #### Animals.json sample
+The array that contains all of the tile information.
+
 ```javascript
 [
     {
@@ -37,6 +46,7 @@ Each round the user has to click on a tile without clicking on a previously clic
     ]
 ````
 #### App.js
+Each click, the app checks the boolean value of isClicked. If isClicked = true, the user loses the game. Otherwise boolean value of isClicked is changed to true and the score increases. If the users score is equal to the targetScore of 12 they win.
 
 ````javascript
 class App extends React.Component {
@@ -97,39 +107,8 @@ class App extends React.Component {
     });
   };
 
-<PageWrapper>
-          <header>
-            <div className="container">
-              <h1>Colorado Wildlife Clicky Game</h1>
-              <p className="rules">Click all the animals without clicking the same animal twice!</p>
-            </div>
-            <h2 className="score"> Score: {this.state.score}</h2>
-            <h2 className="score"> Best Attempt: {this.state.topScore}</h2>
-          </header>
-          <div className="gameWrapper">
-             //Wrapper component
-            <Wrapper>
-              {this.state.animals.map(animal => (
-                //Game component
-                <Game
-                  //Rendered from animals.json
-                  key={animal.id}
-                  id={animal.id}
-                  name={animal.name}
-                  image={animal.image}
-                  updateAnimal={this.updateAnimal}
-                />
-              ))}
-            </Wrapper>
-          </div>
-        </PageWrapper>
 ````
-#### Wrapper Component
-```javascript
-function Wrapper(props) {
-  return <div className="wrapper">{props.children}</div>;
-}
-````
+
 #### Game Component
 
 ```javascript
@@ -148,12 +127,6 @@ function Game(props) {
 }
 ````
 
-## Tech/framework used
-React.js Styled Components
-
-## Features
-
-
 
 ## Installation
 * Install react
@@ -169,5 +142,3 @@ React.js Styled Components
   * :e-mail: mattroger.webdev@gmail.com
   * :man_office_worker: www.linkedin.com/in/matt-roger/
 
-
-## License
