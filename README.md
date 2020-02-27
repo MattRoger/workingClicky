@@ -15,6 +15,8 @@ Each round the user has to click on a tile without clicking on a previously clic
 ## Code style
 
 ### How the Game Works
+![clicky demo](https://github.com/MattRoger/screenshots/blob/master/clicky/demo.gif?raw=true)
+
 #### Animals.json sample
 ```javascript
 [
